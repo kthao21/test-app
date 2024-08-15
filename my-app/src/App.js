@@ -1,6 +1,7 @@
+import { Outlet } from 'react-router-dom';
 import React from 'react';
 import Nav from './components/NavTabs';
-import Body from './components/Body';
+import Body from './pages/Body';
 import './App.css'
 
 
@@ -9,6 +10,9 @@ function App() {
             <>
             <Nav />
             <Body />
+            <main className="mx-3">
+            <Outlet />
+            </main>
             </>
     )
 }

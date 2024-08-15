@@ -2,6 +2,7 @@ import React from 'react'
 
 export default function NavTabs() {
   return (
+
           <header>
         <h2 class="logo">milestone</h2>
         <nav class="navigation">
